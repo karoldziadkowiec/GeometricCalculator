@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Entering {
+public interface Entering {
+    void enterData() throws Exception;
 }
