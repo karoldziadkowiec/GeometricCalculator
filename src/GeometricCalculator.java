@@ -7,7 +7,8 @@ public class GeometricCalculator {
         boolean run = true;
 
         while (run) {
-            int choice = displayMenuAndGetUserChoice();
+            displayMenu();
+            int choice = scanner.nextInt();
 
             switch (choice) {
                 case 1:
@@ -31,14 +32,13 @@ public class GeometricCalculator {
         }
     }
 
-    private static int displayMenuAndGetUserChoice() {
+    private static void displayMenu() {
         System.out.println("\nChoose figure: ");
         System.out.println("1. Triangle");
         System.out.println("2. Square");
         System.out.println("3. Circle");
         System.out.println("4. Exit");
         System.out.print("Number: ");
-        return scanner.nextInt();
     }
 
     private static void calculateTriangle() throws Exception {

@@ -24,9 +24,6 @@ public class ThreeDim implements Entering{
     }
 
     public void print() {
-        double baseArea = base.calculateArea();
-        double lateralArea = base.calculatePerimeter() * h;
-
         System.out.println("\nThreeDim:");
         System.out.println("h = " + h);
         System.out.println("OverallArea = " + calculateOverallArea());
