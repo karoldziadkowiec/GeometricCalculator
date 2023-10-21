@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ThreeDim implements Entering{
+public class ThreeDim implements Printing, Entering{
     private static Scanner scanner = new Scanner(System.in);
     Figure base;
     double h;
@@ -23,6 +23,7 @@ public class ThreeDim implements Entering{
         return volume;
     }
 
+    @Override
     public void print() {
         System.out.println("\nThreeDim:");
         System.out.println("h = " + h);

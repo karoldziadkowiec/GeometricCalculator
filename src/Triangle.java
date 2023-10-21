@@ -49,6 +49,9 @@ class Triangle extends Figure implements Printing, Entering {
             if (!isTriangleValid(a, b, c)) {
                 throw new Exception("Invalid triangle parameters.");
             }
+            else if (a < 0 || b < 0 || c < 0) {
+                throw new Exception("Invalid triangle parameters (parameter is less than 0).");
+            }
             else {
                 System.out.println("Triangle parameters are valid.");
                 Triangle triangle = new Triangle(a, b, c);
