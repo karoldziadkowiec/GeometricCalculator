@@ -8,6 +8,7 @@ The project is a 2D and 3D geometric calculator that calculates the area, perime
 Technology used in the project: Java.
 
 Start panel:
+
 ![1](https://github.com/karoldziadkowiec/GeometricCalculator/blob/master/photos/1.png)
 
 Calculation results after selecting the triangle:
