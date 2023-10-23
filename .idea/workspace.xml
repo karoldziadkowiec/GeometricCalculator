@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edee3fda-29bc-41df-a535-0c7450c84347" name="Changes" comment="20.10 #2">
+    <list default="true" id="edee3fda-29bc-41df-a535-0c7450c84347" name="Changes" comment="21.10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeDim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeDim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697813266425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="21.10">
+      <option name="closed" value="true" />
+      <created>1697917173792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697917173792</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20.10" />
     <MESSAGE value="20.10 #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.10 #2" />
+    <MESSAGE value="21.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.10" />
   </component>
 </project>

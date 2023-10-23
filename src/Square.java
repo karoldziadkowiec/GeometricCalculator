@@ -42,7 +42,8 @@ class Square extends Figure implements Printing, Entering{
                 System.out.println("Square parameters are valid.");
                 Square square = new Square(a);
             }
-        } catch (java.util.InputMismatchException e) {
+        }
+        catch (java.util.InputMismatchException e) {
             throw new Exception("Invalid input.");
         }
     }

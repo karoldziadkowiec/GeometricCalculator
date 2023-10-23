@@ -39,11 +39,12 @@ class Circle extends Figure implements Printing, Entering {
             if (r <= 0) {
                 throw new Exception("Invalid circle parameter.");
             }
-            else{
+            else {
                 System.out.println("Circle parameter is valid.");
                 Circle circle = new Circle(r);
             }
-        } catch (java.util.InputMismatchException e) {
+        }
+        catch (java.util.InputMismatchException e) {
             throw new Exception("Invalid input.");
         }
     }

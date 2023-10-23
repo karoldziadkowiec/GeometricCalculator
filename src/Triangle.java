@@ -56,7 +56,8 @@ class Triangle extends Figure implements Printing, Entering {
                 System.out.println("Triangle parameters are valid.");
                 Triangle triangle = new Triangle(a, b, c);
             }
-        } catch (java.util.InputMismatchException e) {
+        }
+        catch (java.util.InputMismatchException e) {
             throw new Exception("Invalid input.");
         }
     }
