@@ -3,7 +3,7 @@ The project is a 2D and 3D geometric calculator that calculates the area, perime
 
 - triangle
 - square
-- wheel
+- circle
 
 Technology used in the project: Java.
 
